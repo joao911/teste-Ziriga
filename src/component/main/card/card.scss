@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  margin-top: 40px;
+  width: 967px;
+  margin-left: 105px;
+  .card-img {
+    .cards {
+        display: flex;
+        justify-content: space-between;
+      .card-01 {
+          margin-top: 30px;
+        width: 29%;
+        p{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+      }
+    }
+  }
+}

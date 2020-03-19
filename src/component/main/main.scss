@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.main-general {
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  .all {
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    .main {
+      background-color: #ffffff;
+      width: 1160px;
+      .aparelhos {
+        display: flex;
+        justify-content: center;
+        .description {
+          margin-top: 40px;
+          width: 936px;
+          h2 {
+            font-size: 29px;
+            text-align: left;
+            margin-bottom: 40px;
+          }
+          .banner {
+            display: flex;
+            width: 960px;
+            height: 458px;
+            .banner-principal {
+              width: 675px;
+              height: 465px;
+              background-image: url(./img/banner.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              display: flex;
+              align-items: flex-end;
+              margin-left: -10px;
+              p {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #ffffff;
+                margin-left: 10px;
+                margin-bottom: 10px;
+              }
+            }
+            .banner-secundary {
+              .banner-01 {
+                width: 282px;
+                height: 225px;
+                background-image: url(./img/banner01.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: 14px;
+                margin-bottom: 14px;
+                display: flex;
+                align-items: flex-end;
+                p {
+                  text-transform: uppercase;
+                  font-size: 16px;
+                  color: #ffffff;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                  font-size: 15px;
+                }
+              }
+              .banner-02 {
+                width: 282px;
+                height: 225px;
+                background-image: url(./img/banner02.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: 14px;
+                margin-bottom: 14px;
+                display: flex;
+                align-items: flex-end;
+              }
+              p {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #ffffff;
+                margin-left: 10px;
+                margin-bottom: 5px;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

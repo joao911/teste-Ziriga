@@ -1,0 +1,31 @@
+.footer {
+  background-color: #212b3b;
+  height: 292px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .footer-information {
+    h2 {
+      color: #ffffff;
+      font-size: 25px;
+    }
+  }
+  .email {
+    display: flex;
+    width: 60%;
+    margin-left: 30%;
+    input{
+        width: 50%;
+    }
+    button{
+        background-color:#009E46 ;
+        margin-left: 15px;
+        border: none;
+        width: 158px;
+        height: 46px;
+    }
+  }
+}
